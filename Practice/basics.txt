@@ -1,0 +1,10 @@
+What is Linux: Linux is open source operating system.
+Why Linux is used in cloud: Most servers run on Linux because it is stable, secure, reliable.
+Commands I learned:
+- cd
+- ls 
+- mkdir
+- touch
+- mv 
+- cp
+- rm

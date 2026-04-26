@@ -1,0 +1,17 @@
+What I learned:
+- Navigation in linux
+- File operations (create, copy, move, delete)
+- File permission (rwx, chmod)
+- Tree structure
+
+Problems faced:
+- navigation path confusion
+- understanding permission clearly, 4-read, 2-write, 1-execute
+
+New commands:
+- Touch
+- mv
+- cp
+- rm
+- chmod
+- tree
