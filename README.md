@@ -23,10 +23,10 @@ Documenting my journey to becoming a Cloud Engineer.
 ## Folder Structure
 
 Cloud-2026/
-├── Notes
-├── Projects
-├── Certificates
-└── Daily-Logs
+├── Notes/
+├── Projects/
+├── Certificates/
+└── Daily-Logs/
 
 ---
 
