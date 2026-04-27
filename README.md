@@ -46,13 +46,13 @@ Rebuilt concepts and understood real meaning with examples
 ---
 
 ## Folder Structure
-'''
+...
 Cloud-2026/
 ├── Notes/
 ├── Projects/
 ├── Certificates/
 └── Daily-Logs/
-'''
+...
 
 ## Goal
 To become a job-ready Cloud Engineer by Dec 2026
