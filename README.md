@@ -47,12 +47,12 @@ Rebuilt concepts and understood real meaning with examples
 
 ## Folder Structure
 
+---
 Cloud-2026/
 ├── Notes/
 ├── Projects/
 ├── Certificates/
 └── Daily-Logs/
-
 ---
 
 ## Goal
