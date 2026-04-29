@@ -72,6 +72,20 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - **Status:** ✅ Complete
 ---
 
+## Day 6 — Automation Concepts (Theory)
+
+- **Automation:** Converting manual tasks into self-running processes  
+- **Scheduling (cron):** Running tasks automatically at fixed intervals using time-based patterns  
+- **Background Execution:** Systems run independently without user interaction  
+- **Persistence:** Continuous execution over time builds meaningful monitoring data  
+- **Cron:** A Linux time-based scheduler used to automate tasks via crontab entries  
+- **Cron Format:** `* * * * * command_to_execute` (minute hour day month weekday)  
+- **Example:** `*/5 * * * * /path/to/script.sh` → runs every 5 minutes  
+- **Key Understanding:** Manual execution = testing, Scheduled execution = real-world usage, Monitoring must be continuous, Scheduling converts scripts into systems  
+- **What I Realized:** A script alone has limited value, automation is essential in cloud/DevOps workflows, and continuous logging over time provides meaningful insights
+
+---
+
 ## Folder Structure
 
 ```
