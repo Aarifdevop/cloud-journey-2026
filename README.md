@@ -84,6 +84,13 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - **Key Understanding:** Manual execution = testing, Scheduled execution = real-world usage, Monitoring must be continuous, Scheduling converts scripts into systems  
 - **What I Realized:** A script alone has limited value, automation is essential in cloud/DevOps workflows, and continuous logging over time provides meaningful insights
 
+## Day 7 — Cron Automation
+
+- Automated monitor using cron (runs every 5 minutes)
+- Fixed relative path bug — learned why absolute paths matter in automated systems
+- Monitor now logs continuously without manual execution
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure
