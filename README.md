@@ -91,6 +91,14 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - Monitor now logs continuously without manual execution
 - Status: ✅ Complete
 
+## Day 8 — Docker Basics
+
+- Understood difference between images and containers
+- Ran Ubuntu 26.04 container from local machine running 24.04
+- Learned immutable infrastructure — containers are disposable, images are permanent
+- Practiced container lifecycle: run, exec, exit, delete
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure
