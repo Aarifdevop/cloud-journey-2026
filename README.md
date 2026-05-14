@@ -114,10 +114,20 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 
 ```
 Cloud-2026/
+├── Certification/
+├── Daily-Logs/
+│   ├── Day1.txt
+│   └── Day2.txt
+├── Linux-Practice/
 ├── Notes/
 ├── Projects/
-├── Certificates/
-└── Daily-Logs/
+│   ├── Project1/
+│   └── Website-Monitor/
+│       ├── Dockerfile
+│       ├── logs/
+│       └── src/
+│           └── monitor.sh
+└── README.md
 ```
 ## Goal
 To become a job-ready Cloud Engineer by Dec 2026
