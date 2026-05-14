@@ -99,6 +99,15 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - Practiced container lifecycle: run, exec, exit, delete
 - Status: ✅ Complete
 
+## Day 9 — Dockerfile + Containerizing Website Monitor
+
+- Wrote first Dockerfile from scratch
+- Built custom image: website-monitor
+- Debugged path issues inside container
+- Ran website monitor successfully inside Docker
+- Learned layer caching — unchanged layers reuse saved results
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure
