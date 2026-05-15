@@ -108,6 +108,14 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - Learned layer caching — unchanged layers reuse saved results
 - Status: ✅ Complete
 
+## Day 10 — Docker Volumes: Persistent Logs
+
+- Understood why containers lose data on deletion
+- Connected machine logs folder to container using bind mount
+- Proved persistence — container deleted, logs survived
+- Learned difference: without volume = logs die, with volume = logs persist
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure
