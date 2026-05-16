@@ -116,6 +116,15 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - Learned difference: without volume = logs die, with volume = logs persist
 - Status: ✅ Complete
 
+## Day 11 — Environment Variables
+
+- Removed hardcoded websites from monitor script
+- Added SITES environment variable with default fallback
+- Tested same image with 3 different site configurations — zero rebuilds
+- Learned: configuration lives outside the image, not inside it
+- CODE=000 = curl couldn't connect, site unreachable
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure
