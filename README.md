@@ -125,6 +125,15 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - CODE=000 = curl couldn't connect, site unreachable
 - Status: ✅ Complete
 
+## Day 12 — Docker Compose
+
+- Replaced long docker run commands with docker-compose.yml
+- Defined services, environment variables, volumes in one file
+- Ran monitor with single command: docker-compose up
+- Learned -d flag for detached/background mode
+- Learned docker-compose down removes containers and network, not volumes
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure

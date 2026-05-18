@@ -1,0 +1,7 @@
+services:
+  monitor:
+    build: .
+    environment:
+      - SITES=https://google.com,https://github.com,https://abcxyz123.com
+    volumes:
+      - ./logs:/app/logs
