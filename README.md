@@ -150,6 +150,7 @@ Cloud-2026/
 │   ├── Project1/
 │   └── Website-Monitor/
 │       ├── Dockerfile
+|       ├── docker-compose.yml
 │       ├── logs/
 │       └── src/
 │           └── monitor.sh
