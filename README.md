@@ -134,6 +134,15 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - Learned docker-compose down removes containers and network, not volumes
 - Status: ✅ Complete
 
+## Day 13 — GitHub Actions: CI Pipeline
+
+- Created .github/workflows/ci.yml
+- Pipeline triggers automatically on every push to main
+- Steps: checkout code → build Docker image → run monitor
+- First pipeline ran successfully — green checkmark ✅
+- Learned: CI automates build and test, no manual steps needed
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure
