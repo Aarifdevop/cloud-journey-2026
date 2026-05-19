@@ -1,0 +1,21 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Build Docker image
+        run: docker build -t website-monitor ./Projects/Website-Monitor
+
+      - name: Run monitor once
+        run: |
+          mkdir -p ./Projects/Website-Monitor/logs
+          docker run -v $(pwd)/Projects/Website-Monitor/logs:/app/logs website-monitor
