@@ -143,6 +143,16 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - Learned: CI automates build and test, no manual steps needed
 - Status: ✅ Complete
 
+## Day 14/15 — Azure Deployment
+
+- Installed Azure CLI and logged in
+- Created Azure Container Registry (arifmonitorregistry)
+- Pushed Docker image to ACR
+- Deployed monitor to Azure Container Instances
+- Fixed stdout logging with tee for cloud log capture
+- Monitor ran in Microsoft datacenter — Central India
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure
