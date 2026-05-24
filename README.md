@@ -153,6 +153,14 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - Monitor ran in Microsoft datacenter — Central India
 - Status: ✅ Complete
 
+## Day 16 — Full CI/CD Pipeline
+
+- Connected GitHub Actions to Azure via Service Principal
+- Added 4 GitHub Secrets for secure credential storage
+- Pipeline auto-builds, pushes to ACR, and redeploys on every push
+- Zero manual deployment steps
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure
