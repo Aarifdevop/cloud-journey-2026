@@ -1,21 +1,44 @@
-name: CI Pipeline
+name: CI/CD Pipeline
 
 on:
   push:
     branches: [main]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Build Docker image
-        run: docker build -t website-monitor ./Projects/Website-Monitor
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      - name: Run monitor once
+      - name: Login to ACR
+        uses: docker/login-action@v2
+        with:
+          registry: ${{ secrets.REGISTRY_LOGIN_SERVER }}
+          username: ${{ secrets.REGISTRY_USERNAME }}
+          password: ${{ secrets.REGISTRY_PASSWORD }}
+
+      - name: Build and push Docker image
         run: |
-          mkdir -p ./Projects/Website-Monitor/logs
-          docker run -v $(pwd)/Projects/Website-Monitor/logs:/app/logs website-monitor
+          docker build -t ${{ secrets.REGISTRY_LOGIN_SERVER }}/website-monitor:latest ./Projects/Website-Monitor
+          docker push ${{ secrets.REGISTRY_LOGIN_SERVER }}/website-monitor:latest
+
+      - name: Deploy to Azure Container Instances
+        run: |
+          az container delete --resource-group website-monitor-rg --name website-monitor --yes || true
+          az container create \
+            --resource-group website-monitor-rg \
+            --name website-monitor \
+            --image ${{ secrets.REGISTRY_LOGIN_SERVER }}/website-monitor:latest \
+            --registry-login-server ${{ secrets.REGISTRY_LOGIN_SERVER }} \
+            --registry-username ${{ secrets.REGISTRY_USERNAME }} \
+            --registry-password ${{ secrets.REGISTRY_PASSWORD }} \
+            --os-type Linux \
+            --cpu 1 \
+            --memory 1
