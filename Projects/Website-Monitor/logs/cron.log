@@ -609,3 +609,136 @@ tee: /app/logs/status.log: No such file or directory
 [Sun May 24 11:50:05 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
 tee: /app/logs/status.log: No such file or directory
 [Sun May 24 11:50:07 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=403 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 11:55:05 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 11:55:05 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 11:55:07 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=403 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:00:05 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:00:05 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:00:07 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=403 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:05:06 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:05:06 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:05:09 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=403 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:10:05 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:10:05 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:10:07 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=403 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:15:03 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:15:03 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:15:05 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=302 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:20:03 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:20:03 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:20:05 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=403 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:25:06 UTC 2026] STATUS=DOWN SITE=https://google.com CODE=301 REDIRECT=https://www.google.com/
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:25:06 UTC 2026] STATUS=DOWN SITE=https://github.com CODE=000 REDIRECT=https://github.com/
+tee: /app/logs/status.log: No such file or directory
+[Sun May 24 12:25:06 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=000 REDIRECT=https://abcxyz123.com/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Mon May 25 14:15:04 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Mon May 25 14:15:04 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Mon May 25 14:15:07 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=403 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Mon May 25 14:20:10 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Mon May 25 14:20:19 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Mon May 25 14:20:23 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=403 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Mon May 25 14:25:12 UTC 2026] STATUS=DOWN SITE=https://google.com CODE=000 REDIRECT=https://google.com/
+tee: /app/logs/status.log: No such file or directory
+[Mon May 25 14:25:22 UTC 2026] STATUS=DOWN SITE=https://github.com CODE=000 REDIRECT=https://github.com/
+tee: /app/logs/status.log: No such file or directory
+[Mon May 25 14:25:32 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=000 REDIRECT=https://abcxyz123.com/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:35:02 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:35:02 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:35:04 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=302 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:40:09 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:40:10 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:40:11 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=302 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:45:08 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:45:08 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:45:09 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=302 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:50:06 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:50:06 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:50:07 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=302 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:55:08 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:55:09 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 09:55:09 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=302 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 10:00:08 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 10:00:08 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 10:00:09 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=302 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 10:05:07 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 10:05:08 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 10:05:09 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=302 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 10:10:04 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 10:10:07 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 10:10:08 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=302 REDIRECT=https://abcxyz123com.azurewebsites.net/
+/home/arif/Cloud-2026/Projects/Website-Monitor/src/monitor.sh: line 2: cd: /app: No such file or directory
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 10:15:05 UTC 2026] STATUS=UP SITE=https://google.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 10:15:05 UTC 2026] STATUS=UP SITE=https://github.com CODE=200
+tee: /app/logs/status.log: No such file or directory
+[Sun May 31 10:15:06 UTC 2026] STATUS=DOWN SITE=https://abcxyz123.com CODE=302 REDIRECT=https://abcxyz123com.azurewebsites.net/

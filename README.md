@@ -161,6 +161,14 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - Zero manual deployment steps
 - Status: ✅ Complete
 
+## Day 17 — Public Status Page
+
+- Built Python web server to display monitor results
+- Two containers sharing logs via Docker named volume
+- Monitor writes → status page reads → browser displays
+- Accessible at http://localhost:8080
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure

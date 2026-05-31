@@ -4,4 +4,14 @@ services:
     environment:
       - SITES=https://google.com,https://github.com,https://abcxyz123.com
     volumes:
-      - ./logs:/app/logs
+      - shared-logs:/app/logs
+
+  status-page:
+    build: ../Status-Page
+    ports:
+      - "8080:80"
+    volumes:
+      - shared-logs:/app/logs
+
+volumes:
+  shared-logs:
