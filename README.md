@@ -178,6 +178,14 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - Status page live at: http://arif-status-page.centralindia.azurecontainer.io
 - Status: ✅ Complete
 
+## Day 19 — Status Page UI Upgrade
+
+- Added green/red color indicators for UP/DOWN status
+- Added auto-refresh every 30 seconds
+- Redeployed to Azure Container Instances
+- Live at: http://arif-status-page.centralindia.azurecontainer.io
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure
