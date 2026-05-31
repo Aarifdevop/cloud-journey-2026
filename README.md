@@ -175,17 +175,24 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 
 ```
 Cloud-2026/
+├── .github/
+│   └── workflows/
+│       └── ci.yml
 ├── Certification/
 ├── Daily-Logs/
 │   ├── Day1.txt
 │   └── Day2.txt
 ├── Linux-Practice/
 ├── Notes/
+│   └── Day4.md
 ├── Projects/
 │   ├── Project1/
+│   ├── Status-Page/
+│   │   ├── Dockerfile
+│   │   └── app.py
 │   └── Website-Monitor/
 │       ├── Dockerfile
-|       ├── docker-compose.yml
+│       ├── docker-compose.yml
 │       ├── logs/
 │       └── src/
 │           └── monitor.sh
