@@ -169,6 +169,15 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - Accessible at http://localhost:8080
 - Status: ✅ Complete
 
+## Day 18 — Azure Deployment: Public Status Page
+
+- Created Azure Storage Account and File Share
+- Deployed monitor container with Azure File Share mounted at /app/logs
+- Deployed status page container with same File Share mounted
+- Both containers share logs via Azure File Share
+- Status page live at: http://arif-status-page.centralindia.azurecontainer.io
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure
