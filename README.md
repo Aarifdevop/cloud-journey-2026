@@ -186,6 +186,15 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - Live at: http://arif-status-page.centralindia.azurecontainer.io
 - Status: ✅ Complete
 
+## Day 20 — Interactive URL Checker
+
+- Added input form to status page
+- Users can type any URL and get instant UP/DOWN result
+- Fixed URL encoding with urllib.parse.unquote
+- Installed curl in Python container via Dockerfile
+- Live at: http://arif-status-page.centralindia.azurecontainer.io
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure
