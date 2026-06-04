@@ -195,6 +195,16 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - Live at: http://arif-status-page.centralindia.azurecontainer.io
 - Status: ✅ Complete
 
+## Day 21 — Kubernetes Basics
+
+- Installed Minikube and kubectl
+- Started local Kubernetes cluster
+- Created k8s-deployment.yml with 2 replicas
+- Deployed website-monitor to Kubernetes
+- Proved self-healing: deleted pod, Kubernetes replaced it automatically
+- Key concept: reconciliation loop — desired state vs actual state
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure
