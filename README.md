@@ -205,6 +205,15 @@ Monitoring isn't just about checking if a site is "on." It's about verifying the
 - Key concept: reconciliation loop — desired state vs actual state
 - Status: ✅ Complete
 
+## Day 22 — Kubernetes Service + Scaling
+
+- Created k8s-service.yml with NodePort type
+- Learned: Service needs a container listening on a port to work
+- Scaled deployment from 2 → 4 → 1 with single command
+- Watched pods terminate in real time during scale down
+- Key concept: one command to scale, Kubernetes handles the rest
+- Status: ✅ Complete
+
 ---
 
 ## Folder Structure
